@@ -1,0 +1,34 @@
+.DS_Store
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+*.mode1v3
+*.mode2v3
+
+*.xcodeproj/xcuserdata/*.xcuserdatad
+
+*.xccheckout
+*.xcuserdatad
+
+Pods
+
+DerivedData
+build
+
+.clang-format
+
+# Fastlane
+fastlane/report.xml
+fastlane/test_output/
+Preview.html
+
+# Injection
+iOSInjectionProject/
+
+# FBSnapshotTestCase
+FailureDiffs/
+
+# Sourcery
+default.profraw
