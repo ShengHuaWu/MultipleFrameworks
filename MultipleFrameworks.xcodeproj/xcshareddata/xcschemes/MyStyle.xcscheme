@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BDC8D0B2080B58000E582EB"
-               BuildableName = "MultipleFrameworks.framework"
-               BlueprintName = "MultipleFrameworks"
+               BlueprintIdentifier = "9B58A6F2208348CC00A4EBC1"
+               BuildableName = "MyStyle.framework"
+               BlueprintName = "MyStyle"
                ReferencedContainer = "container:MultipleFrameworks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BDC8D0B2080B58000E582EB"
-            BuildableName = "MultipleFrameworks.framework"
-            BlueprintName = "MultipleFrameworks"
+            BlueprintIdentifier = "9B58A6F2208348CC00A4EBC1"
+            BuildableName = "MyStyle.framework"
+            BlueprintName = "MyStyle"
             ReferencedContainer = "container:MultipleFrameworks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9BDC8D0B2080B58000E582EB"
-            BuildableName = "MultipleFrameworks.framework"
-            BlueprintName = "MultipleFrameworks"
+            BlueprintIdentifier = "9B58A6F2208348CC00A4EBC1"
+            BuildableName = "MyStyle.framework"
+            BlueprintName = "MyStyle"
             ReferencedContainer = "container:MultipleFrameworks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

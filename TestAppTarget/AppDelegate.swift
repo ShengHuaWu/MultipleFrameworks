@@ -7,19 +7,17 @@
 //
 
 import UIKit
-import MultipleFrameworks
-import AnotherFramework
+import MyNetworking
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        MultipleFrameworks.doNothing()
-        AnotherFramework.doNothing()
-        
+        let networking = Networking()
+        networking.sendRequest()
+                
         return true
     }
 }

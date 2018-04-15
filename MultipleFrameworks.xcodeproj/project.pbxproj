@@ -7,28 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BDC8D112080B58000E582EB /* MultipleFrameworks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDC8D0F2080B58000E582EB /* MultipleFrameworks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BDC8D182080B5AE00E582EB /* UselessFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC8D172080B5AE00E582EB /* UselessFunction.swift */; };
-		9BDC8D222080B60A00E582EB /* AnotherFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDC8D202080B60A00E582EB /* AnotherFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BDC8D272080B61A00E582EB /* UselessFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC8D262080B61A00E582EB /* UselessFunction.swift */; };
+		9B58A6E5208348C000A4EBC1 /* MyErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B58A6E3208348C000A4EBC1 /* MyErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B58A6F7208348CC00A4EBC1 /* MyStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B58A6F5208348CC00A4EBC1 /* MyStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B58A708208348DA00A4EBC1 /* MyNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B58A706208348DA00A4EBC1 /* MyNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B58A7112083490700A4EBC1 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58A7102083490700A4EBC1 /* Errors.swift */; };
+		9B58A7132083495A00A4EBC1 /* Stylish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58A7122083495A00A4EBC1 /* Stylish.swift */; };
+		9B58A715208349DD00A4EBC1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58A714208349DD00A4EBC1 /* Networking.swift */; };
+		9B58A71620834A5600A4EBC1 /* MyErrors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58A6E1208348C000A4EBC1 /* MyErrors.framework */; };
+		9B58A71720834A5600A4EBC1 /* MyNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58A704208348DA00A4EBC1 /* MyNetworking.framework */; };
+		9B58A71820834A5600A4EBC1 /* MyStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58A6F3208348CC00A4EBC1 /* MyStyle.framework */; };
+		9B58A71920834B7900A4EBC1 /* MyErrors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58A6E1208348C000A4EBC1 /* MyErrors.framework */; };
 		9BDC8D2F2080B65800E582EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC8D2E2080B65800E582EB /* AppDelegate.swift */; };
 		9BDC8D312080B65800E582EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC8D302080B65800E582EB /* ViewController.swift */; };
 		9BDC8D342080B65800E582EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDC8D322080B65800E582EB /* Main.storyboard */; };
 		9BDC8D362080B65800E582EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDC8D352080B65800E582EB /* Assets.xcassets */; };
 		9BDC8D392080B65800E582EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDC8D372080B65800E582EB /* LaunchScreen.storyboard */; };
-		9BDC8D3F2080B71A00E582EB /* AnotherFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDC8D1E2080B60A00E582EB /* AnotherFramework.framework */; };
-		9BDC8D402080B71A00E582EB /* MultipleFrameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDC8D0C2080B58000E582EB /* MultipleFrameworks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BDC8D0C2080B58000E582EB /* MultipleFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultipleFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BDC8D0F2080B58000E582EB /* MultipleFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleFrameworks.h; sourceTree = "<group>"; };
-		9BDC8D102080B58000E582EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BDC8D172080B5AE00E582EB /* UselessFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UselessFunction.swift; sourceTree = "<group>"; };
-		9BDC8D1E2080B60A00E582EB /* AnotherFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnotherFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BDC8D202080B60A00E582EB /* AnotherFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherFramework.h; sourceTree = "<group>"; };
-		9BDC8D212080B60A00E582EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BDC8D262080B61A00E582EB /* UselessFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UselessFunction.swift; sourceTree = "<group>"; };
+		9B58A6E1208348C000A4EBC1 /* MyErrors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyErrors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B58A6E3208348C000A4EBC1 /* MyErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyErrors.h; sourceTree = "<group>"; };
+		9B58A6E4208348C000A4EBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B58A6F3208348CC00A4EBC1 /* MyStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B58A6F5208348CC00A4EBC1 /* MyStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyStyle.h; sourceTree = "<group>"; };
+		9B58A6F6208348CC00A4EBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B58A704208348DA00A4EBC1 /* MyNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B58A706208348DA00A4EBC1 /* MyNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNetworking.h; sourceTree = "<group>"; };
+		9B58A707208348DA00A4EBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B58A7102083490700A4EBC1 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		9B58A7122083495A00A4EBC1 /* Stylish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylish.swift; sourceTree = "<group>"; };
+		9B58A714208349DD00A4EBC1 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		9BDC8D2C2080B65800E582EB /* TestAppTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDC8D2E2080B65800E582EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BDC8D302080B65800E582EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,17 +47,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BDC8D082080B58000E582EB /* Frameworks */ = {
+		9B58A6DD208348C000A4EBC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BDC8D1A2080B60A00E582EB /* Frameworks */ = {
+		9B58A6EF208348CC00A4EBC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58A700208348DA00A4EBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B58A71920834B7900A4EBC1 /* MyErrors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,20 +73,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDC8D3F2080B71A00E582EB /* AnotherFramework.framework in Frameworks */,
-				9BDC8D402080B71A00E582EB /* MultipleFrameworks.framework in Frameworks */,
+				9B58A71620834A5600A4EBC1 /* MyErrors.framework in Frameworks */,
+				9B58A71720834A5600A4EBC1 /* MyNetworking.framework in Frameworks */,
+				9B58A71820834A5600A4EBC1 /* MyStyle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B58A6E2208348C000A4EBC1 /* MyErrors */ = {
+			isa = PBXGroup;
+			children = (
+				9B58A6E3208348C000A4EBC1 /* MyErrors.h */,
+				9B58A6E4208348C000A4EBC1 /* Info.plist */,
+				9B58A7102083490700A4EBC1 /* Errors.swift */,
+			);
+			path = MyErrors;
+			sourceTree = "<group>";
+		};
+		9B58A6F4208348CC00A4EBC1 /* MyStyle */ = {
+			isa = PBXGroup;
+			children = (
+				9B58A6F5208348CC00A4EBC1 /* MyStyle.h */,
+				9B58A6F6208348CC00A4EBC1 /* Info.plist */,
+				9B58A7122083495A00A4EBC1 /* Stylish.swift */,
+			);
+			path = MyStyle;
+			sourceTree = "<group>";
+		};
+		9B58A705208348DA00A4EBC1 /* MyNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9B58A706208348DA00A4EBC1 /* MyNetworking.h */,
+				9B58A707208348DA00A4EBC1 /* Info.plist */,
+				9B58A714208349DD00A4EBC1 /* Networking.swift */,
+			);
+			path = MyNetworking;
+			sourceTree = "<group>";
+		};
 		9BDC8D022080B58000E582EB = {
 			isa = PBXGroup;
 			children = (
-				9BDC8D0E2080B58000E582EB /* MultipleFrameworks */,
-				9BDC8D1F2080B60A00E582EB /* AnotherFramework */,
 				9BDC8D2D2080B65800E582EB /* TestAppTarget */,
+				9B58A6E2208348C000A4EBC1 /* MyErrors */,
+				9B58A6F4208348CC00A4EBC1 /* MyStyle */,
+				9B58A705208348DA00A4EBC1 /* MyNetworking */,
 				9BDC8D0D2080B58000E582EB /* Products */,
 				9BDC8D3E2080B71A00E582EB /* Frameworks */,
 			);
@@ -79,31 +127,12 @@
 		9BDC8D0D2080B58000E582EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BDC8D0C2080B58000E582EB /* MultipleFrameworks.framework */,
-				9BDC8D1E2080B60A00E582EB /* AnotherFramework.framework */,
 				9BDC8D2C2080B65800E582EB /* TestAppTarget.app */,
+				9B58A6E1208348C000A4EBC1 /* MyErrors.framework */,
+				9B58A6F3208348CC00A4EBC1 /* MyStyle.framework */,
+				9B58A704208348DA00A4EBC1 /* MyNetworking.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9BDC8D0E2080B58000E582EB /* MultipleFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9BDC8D0F2080B58000E582EB /* MultipleFrameworks.h */,
-				9BDC8D102080B58000E582EB /* Info.plist */,
-				9BDC8D172080B5AE00E582EB /* UselessFunction.swift */,
-			);
-			path = MultipleFrameworks;
-			sourceTree = "<group>";
-		};
-		9BDC8D1F2080B60A00E582EB /* AnotherFramework */ = {
-			isa = PBXGroup;
-			children = (
-				9BDC8D202080B60A00E582EB /* AnotherFramework.h */,
-				9BDC8D212080B60A00E582EB /* Info.plist */,
-				9BDC8D262080B61A00E582EB /* UselessFunction.swift */,
-			);
-			path = AnotherFramework;
 			sourceTree = "<group>";
 		};
 		9BDC8D2D2080B65800E582EB /* TestAppTarget */ = {
@@ -129,59 +158,85 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9BDC8D092080B58000E582EB /* Headers */ = {
+		9B58A6DE208348C000A4EBC1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDC8D112080B58000E582EB /* MultipleFrameworks.h in Headers */,
+				9B58A6E5208348C000A4EBC1 /* MyErrors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BDC8D1B2080B60A00E582EB /* Headers */ = {
+		9B58A6F0208348CC00A4EBC1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDC8D222080B60A00E582EB /* AnotherFramework.h in Headers */,
+				9B58A6F7208348CC00A4EBC1 /* MyStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58A701208348DA00A4EBC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B58A708208348DA00A4EBC1 /* MyNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9BDC8D0B2080B58000E582EB /* MultipleFrameworks */ = {
+		9B58A6E0208348C000A4EBC1 /* MyErrors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BDC8D142080B58000E582EB /* Build configuration list for PBXNativeTarget "MultipleFrameworks" */;
+			buildConfigurationList = 9B58A6EA208348C000A4EBC1 /* Build configuration list for PBXNativeTarget "MyErrors" */;
 			buildPhases = (
-				9BDC8D072080B58000E582EB /* Sources */,
-				9BDC8D082080B58000E582EB /* Frameworks */,
-				9BDC8D092080B58000E582EB /* Headers */,
-				9BDC8D0A2080B58000E582EB /* Resources */,
+				9B58A6DC208348C000A4EBC1 /* Sources */,
+				9B58A6DD208348C000A4EBC1 /* Frameworks */,
+				9B58A6DE208348C000A4EBC1 /* Headers */,
+				9B58A6DF208348C000A4EBC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MultipleFrameworks;
-			productName = MultipleFrameworks;
-			productReference = 9BDC8D0C2080B58000E582EB /* MultipleFrameworks.framework */;
+			name = MyErrors;
+			productName = MyErrors;
+			productReference = 9B58A6E1208348C000A4EBC1 /* MyErrors.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9BDC8D1D2080B60A00E582EB /* AnotherFramework */ = {
+		9B58A6F2208348CC00A4EBC1 /* MyStyle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BDC8D232080B60A00E582EB /* Build configuration list for PBXNativeTarget "AnotherFramework" */;
+			buildConfigurationList = 9B58A6FC208348CC00A4EBC1 /* Build configuration list for PBXNativeTarget "MyStyle" */;
 			buildPhases = (
-				9BDC8D192080B60A00E582EB /* Sources */,
-				9BDC8D1A2080B60A00E582EB /* Frameworks */,
-				9BDC8D1B2080B60A00E582EB /* Headers */,
-				9BDC8D1C2080B60A00E582EB /* Resources */,
+				9B58A6EE208348CC00A4EBC1 /* Sources */,
+				9B58A6EF208348CC00A4EBC1 /* Frameworks */,
+				9B58A6F0208348CC00A4EBC1 /* Headers */,
+				9B58A6F1208348CC00A4EBC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AnotherFramework;
-			productName = AnotherFramework;
-			productReference = 9BDC8D1E2080B60A00E582EB /* AnotherFramework.framework */;
+			name = MyStyle;
+			productName = MyStyle;
+			productReference = 9B58A6F3208348CC00A4EBC1 /* MyStyle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B58A703208348DA00A4EBC1 /* MyNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B58A70D208348DA00A4EBC1 /* Build configuration list for PBXNativeTarget "MyNetworking" */;
+			buildPhases = (
+				9B58A6FF208348DA00A4EBC1 /* Sources */,
+				9B58A700208348DA00A4EBC1 /* Frameworks */,
+				9B58A701208348DA00A4EBC1 /* Headers */,
+				9B58A702208348DA00A4EBC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetworking;
+			productName = MyNetworking;
+			productReference = 9B58A704208348DA00A4EBC1 /* MyNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9BDC8D2B2080B65800E582EB /* TestAppTarget */ = {
@@ -211,12 +266,17 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "ShengHua Wu";
 				TargetAttributes = {
-					9BDC8D0B2080B58000E582EB = {
+					9B58A6E0208348C000A4EBC1 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
-					9BDC8D1D2080B60A00E582EB = {
+					9B58A6F2208348CC00A4EBC1 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					9B58A703208348DA00A4EBC1 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
@@ -240,22 +300,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BDC8D0B2080B58000E582EB /* MultipleFrameworks */,
-				9BDC8D1D2080B60A00E582EB /* AnotherFramework */,
 				9BDC8D2B2080B65800E582EB /* TestAppTarget */,
+				9B58A6E0208348C000A4EBC1 /* MyErrors */,
+				9B58A6F2208348CC00A4EBC1 /* MyStyle */,
+				9B58A703208348DA00A4EBC1 /* MyNetworking */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9BDC8D0A2080B58000E582EB /* Resources */ = {
+		9B58A6DF208348C000A4EBC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BDC8D1C2080B60A00E582EB /* Resources */ = {
+		9B58A6F1208348CC00A4EBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58A702208348DA00A4EBC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,19 +343,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BDC8D072080B58000E582EB /* Sources */ = {
+		9B58A6DC208348C000A4EBC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDC8D182080B5AE00E582EB /* UselessFunction.swift in Sources */,
+				9B58A7112083490700A4EBC1 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BDC8D192080B60A00E582EB /* Sources */ = {
+		9B58A6EE208348CC00A4EBC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDC8D272080B61A00E582EB /* UselessFunction.swift in Sources */,
+				9B58A7132083495A00A4EBC1 /* Stylish.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B58A6FF208348DA00A4EBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B58A715208349DD00A4EBC1 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +398,141 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9B58A6EB208348C000A4EBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DRL7ER946T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyErrors/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MyErrors;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B58A6EC208348C000A4EBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DRL7ER946T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyErrors/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MyErrors;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B58A6FD208348CC00A4EBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DRL7ER946T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyStyle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MyStyle;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B58A6FE208348CC00A4EBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DRL7ER946T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyStyle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MyStyle;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B58A70E208348DA00A4EBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DRL7ER946T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MyNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B58A70F208348DA00A4EBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DRL7ER946T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MyNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		9BDC8D122080B58000E582EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -435,96 +646,6 @@
 			};
 			name = Release;
 		};
-		9BDC8D152080B58000E582EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DRL7ER946T;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MultipleFrameworks/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MultipleFrameworks;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9BDC8D162080B58000E582EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DRL7ER946T;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MultipleFrameworks/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.MultipleFrameworks;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9BDC8D242080B60A00E582EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DRL7ER946T;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AnotherFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.AnotherFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9BDC8D252080B60A00E582EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DRL7ER946T;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AnotherFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.conichi.AnotherFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		9BDC8D3C2080B65800E582EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -558,29 +679,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B58A6EA208348C000A4EBC1 /* Build configuration list for PBXNativeTarget "MyErrors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B58A6EB208348C000A4EBC1 /* Debug */,
+				9B58A6EC208348C000A4EBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B58A6FC208348CC00A4EBC1 /* Build configuration list for PBXNativeTarget "MyStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B58A6FD208348CC00A4EBC1 /* Debug */,
+				9B58A6FE208348CC00A4EBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B58A70D208348DA00A4EBC1 /* Build configuration list for PBXNativeTarget "MyNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B58A70E208348DA00A4EBC1 /* Debug */,
+				9B58A70F208348DA00A4EBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9BDC8D062080B58000E582EB /* Build configuration list for PBXProject "MultipleFrameworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BDC8D122080B58000E582EB /* Debug */,
 				9BDC8D132080B58000E582EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9BDC8D142080B58000E582EB /* Build configuration list for PBXNativeTarget "MultipleFrameworks" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BDC8D152080B58000E582EB /* Debug */,
-				9BDC8D162080B58000E582EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9BDC8D232080B60A00E582EB /* Build configuration list for PBXNativeTarget "AnotherFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BDC8D242080B60A00E582EB /* Debug */,
-				9BDC8D252080B60A00E582EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
